@@ -35,14 +35,29 @@
         font-size: 2.5rem;
         color: var(--accent-color);
       }
+
+      .fancy {
+        background: linear-gradient(
+          42deg,
+          rgba(83, 21, 208, 1) 0%,
+          rgba(227, 62, 255, 1) 27%,
+          rgba(231, 102, 165, 1) 51%,
+          rgba(31, 157, 172, 1) 83%,
+          rgba(89, 65, 138, 1) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Futura", sans-serif;
+      }
     </style>
   </head>
   <body>
     <h1>This is a website</h1>
     <p>
-      Nothing fancy yet, just very basic HTML. Go on, use "View Source". I've
-      been stuck for weeks trying to reboot my personal website. There are so
-      many options these days, and so much complexity available.
+      Nothing <span class="fancy">fancy</span> yet, just very basic HTML. Go on,
+      use "View Source". I've been stuck for weeks trying to reboot my personal
+      website. There are so many options these days, and so much complexity
+      available.
     </p>
 
     <p>
